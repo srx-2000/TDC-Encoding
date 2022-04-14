@@ -1,0 +1,28 @@
+data_base_path: 'D:\pycharm\PyCharm 2020.1.1\workplace\machine_learning\ForNet\data'
+data_file_prefix: 'bert_data'
+logF: 'D:\pycharm\PyCharm 2020.1.1\workplace\machine_learning\my_model\'
+log_dir: 'result'
+pre_train_tokenizer: 'D:\pycharm\PyCharm 2020.1.1\workplace\machine_learning\my_model\vocab.txt'
+pre_train_model: ''
+pre_train_model_config: ''
+epoch: 10
+batch_size: 2
+num_layers: 6
+d_model: 768
+heads: 8
+d_ff: 2048
+embedding_size: 128
+lr: 0.01
+dropout: 0.1
+weight_decay: 0.0001
+eval_interval: 10
+save_interval: 5
+is_share_emb: False
+is_fuse: True
+beam_size: 5
+min_length: 10
+max_length: 50
+recall_eval: False
+alpha: 0.95
+block_trigram: True
+is_truncate: True
