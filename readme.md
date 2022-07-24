@@ -1,4 +1,4 @@
-### 二维卷积在生成式摘要生成中的使用
+### TDC Encoding模型
 
 该项目为我本科毕设的模型模块
 
@@ -18,7 +18,7 @@
 2. 在复现模型的基础上改进的一个生成式摘要模型
 3. 构建一个简单易用的摘要自动生成系统
 
-可以看出主要的任务难度分布在了前两个任务上，所以最近这三个月的时间，我可以说是从0开始学习关于该领域的相关知识，从深度学习最基础的概念，到pytorch框架的使用，再到论文的阅读与复现。终于在一个礼拜前我构思并初步实现了我自己理解中的一个模型，架构图如下图所示：![模型整体架构](https://raw.githubusercontent.com/srx-2000/Two-dimensional-convolution-for-Abstractive-summarization/master/1.png)
+可以看出主要的任务难度分布在了前两个任务上，所以最近这三个月的时间，我可以说是从0开始学习关于该领域的相关知识，从深度学习最基础的概念，到pytorch框架的使用，再到论文的阅读与复现。终于在一个礼拜前我构思并初步实现了我自己理解中的一个模型，架构图如下图所示：![模型整体架构](https://raw.githubusercontent.com/srx-2000/Two-dimensional-convolution-for-Abstractive-summarization/master/7.png)
 
 主要参考了以下两篇论文中的思路：[Text Summarization with Pretrained Encoders](https://arxiv.org/pdf/1908.08345.pdf)，[Global Encoding for Abstractive Summarization](https://arxiv.org/pdf/1805.03989.pdf)，这两篇论文也都在github上有相应的代码库：[paper1](https://github.com/nlpyang/PreSumm)，[paper2](https://github.com/lancopku/Global-Encoding)。我在二者中获取了一些灵感并尝试将二者的优点有机的结合了以下，同时我也尝试提出一个相对比较冷门的想法：将二维卷积使用在nlp任务中。
 
